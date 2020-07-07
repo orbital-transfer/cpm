@@ -185,7 +185,7 @@ DISTRIBUTIONS
     pathname: T/TO/TODDR/Exporter-5.74.tar.gz
     provides:
       Exporter 5.74
-      Exporter::Heavy 5.73
+      Exporter::Heavy 5.74
     requirements:
       Carp 1.05
       ExtUtils::MakeMaker 0
@@ -228,44 +228,44 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  ExtUtils-MakeMaker-7.44
-    pathname: B/BI/BINGOS/ExtUtils-MakeMaker-7.44.tar.gz
+  ExtUtils-MakeMaker-7.46
+    pathname: B/BI/BINGOS/ExtUtils-MakeMaker-7.46.tar.gz
     provides:
-      ExtUtils::Command 7.44
-      ExtUtils::Command::MM 7.44
-      ExtUtils::Liblist 7.44
-      ExtUtils::Liblist::Kid 7.44
-      ExtUtils::MM 7.44
-      ExtUtils::MM_AIX 7.44
-      ExtUtils::MM_Any 7.44
-      ExtUtils::MM_BeOS 7.44
-      ExtUtils::MM_Cygwin 7.44
-      ExtUtils::MM_DOS 7.44
-      ExtUtils::MM_Darwin 7.44
-      ExtUtils::MM_MacOS 7.44
-      ExtUtils::MM_NW5 7.44
-      ExtUtils::MM_OS2 7.44
-      ExtUtils::MM_QNX 7.44
-      ExtUtils::MM_UWIN 7.44
-      ExtUtils::MM_Unix 7.44
-      ExtUtils::MM_VMS 7.44
-      ExtUtils::MM_VOS 7.44
-      ExtUtils::MM_Win32 7.44
-      ExtUtils::MM_Win95 7.44
-      ExtUtils::MY 7.44
-      ExtUtils::MakeMaker 7.44
-      ExtUtils::MakeMaker::Config 7.44
-      ExtUtils::MakeMaker::Locale 7.44
-      ExtUtils::MakeMaker::_version 7.44
-      ExtUtils::MakeMaker::charstar 7.44
-      ExtUtils::MakeMaker::version 7.44
-      ExtUtils::MakeMaker::version::regex 7.44
-      ExtUtils::MakeMaker::version::vpp 7.44
-      ExtUtils::Mkbootstrap 7.44
-      ExtUtils::Mksymlists 7.44
-      ExtUtils::testlib 7.44
-      MM 7.44
-      MY 7.44
+      ExtUtils::Command 7.46
+      ExtUtils::Command::MM 7.46
+      ExtUtils::Liblist 7.46
+      ExtUtils::Liblist::Kid 7.46
+      ExtUtils::MM 7.46
+      ExtUtils::MM_AIX 7.46
+      ExtUtils::MM_Any 7.46
+      ExtUtils::MM_BeOS 7.46
+      ExtUtils::MM_Cygwin 7.46
+      ExtUtils::MM_DOS 7.46
+      ExtUtils::MM_Darwin 7.46
+      ExtUtils::MM_MacOS 7.46
+      ExtUtils::MM_NW5 7.46
+      ExtUtils::MM_OS2 7.46
+      ExtUtils::MM_QNX 7.46
+      ExtUtils::MM_UWIN 7.46
+      ExtUtils::MM_Unix 7.46
+      ExtUtils::MM_VMS 7.46
+      ExtUtils::MM_VOS 7.46
+      ExtUtils::MM_Win32 7.46
+      ExtUtils::MM_Win95 7.46
+      ExtUtils::MY 7.46
+      ExtUtils::MakeMaker 7.46
+      ExtUtils::MakeMaker::Config 7.46
+      ExtUtils::MakeMaker::Locale 7.46
+      ExtUtils::MakeMaker::_version 7.46
+      ExtUtils::MakeMaker::charstar 7.46
+      ExtUtils::MakeMaker::version 7.46
+      ExtUtils::MakeMaker::version::regex 7.46
+      ExtUtils::MakeMaker::version::vpp 7.46
+      ExtUtils::Mkbootstrap 7.46
+      ExtUtils::Mksymlists 7.46
+      ExtUtils::testlib 7.46
+      MM 7.46
+      MY 7.46
     requirements:
       Data::Dumper 0
       Encode 0
@@ -401,22 +401,6 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  HTTP-Tinyish-0.16
-    pathname: M/MI/MIYAGAWA/HTTP-Tinyish-0.16.tar.gz
-    provides:
-      HTTP::Tinyish 0.16
-      HTTP::Tinyish::Base undef
-      HTTP::Tinyish::Curl undef
-      HTTP::Tinyish::HTTPTiny undef
-      HTTP::Tinyish::LWP undef
-      HTTP::Tinyish::Wget undef
-    requirements:
-      ExtUtils::MakeMaker 0
-      File::Which 0
-      HTTP::Tiny 0.055
-      IPC::Run3 0
-      parent 0
-      perl 5.008001
   IPC-Cmd-1.04
     pathname: B/BI/BINGOS/IPC-Cmd-1.04.tar.gz
     provides:
@@ -503,16 +487,6 @@ DISTRIBUTIONS
       parent 0
       perl 5.008001
       version 0
-  Menlo-Legacy-1.9022
-    pathname: M/MI/MIYAGAWA/Menlo-Legacy-1.9022.tar.gz
-    provides:
-      Menlo::CLI::Compat 1.9022
-      Menlo::Legacy 1.9022
-    requirements:
-      ExtUtils::MakeMaker 0
-      Menlo 1.9018
-      perl 5.008001
-      version 0.9905
   Module-CPANfile-1.1004
     pathname: M/MI/MIYAGAWA/Module-CPANfile-1.1004.tar.gz
     provides:
@@ -526,11 +500,11 @@ DISTRIBUTIONS
       CPAN::Meta::Prereqs 2.12091
       ExtUtils::MakeMaker 0
       parent 0
-  Module-CoreList-5.20200428
-    pathname: B/BI/BINGOS/Module-CoreList-5.20200428.tar.gz
+  Module-CoreList-5.20200620
+    pathname: B/BI/BINGOS/Module-CoreList-5.20200620.tar.gz
     provides:
-      Module::CoreList 5.20200428
-      Module::CoreList::Utils 5.20200428
+      Module::CoreList 5.20200620
+      Module::CoreList::Utils 5.20200620
     requirements:
       ExtUtils::MakeMaker 0
       List::Util 0
@@ -543,10 +517,10 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.94
-  Module-Load-Conditional-0.70
-    pathname: B/BI/BINGOS/Module-Load-Conditional-0.70.tar.gz
+  Module-Load-Conditional-0.72
+    pathname: B/BI/BINGOS/Module-Load-Conditional-0.72.tar.gz
     provides:
-      Module::Load::Conditional 0.70
+      Module::Load::Conditional 0.72
     requirements:
       ExtUtils::MakeMaker 0
       Locale::Maketext::Simple 0

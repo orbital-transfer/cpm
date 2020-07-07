@@ -1,4 +1,22 @@
-require "../cpanfile";
+requires 'CPAN::Common::Index';
+requires 'CPAN::DistnameInfo';
+requires 'CPAN::Meta';
+requires 'CPAN::Meta::Requirements', '2.130'; # for v-strings
+requires 'CPAN::Meta::YAML';
+requires 'Class::Tiny';
+requires 'Command::Runner', '0.100';
+requires 'ExtUtils::InstallPaths', '0.002';
+requires 'File::Copy::Recursive';
+requires 'File::pushd';
+requires 'HTTP::Tinyish', git => 'https://github.com/skaji/HTTP-Tinyish.git', ref => 'curl-show-error';
+requires 'JSON::PP', '2.27300'; # for perl 5.8.6 or below
+requires 'Menlo::CLI::Compat', git => 'https://github.com/skaji/cpanminus.git', ref => 'investigate';
+requires 'Module::CPANfile';
+requires 'Module::Metadata';
+requires 'Parallel::Pipes', '0.004';
+requires 'local::lib', '2.000018';
+requires 'parent';
+requires 'version', '0.77';
 
 requires "Class::C3";
 requires "Devel::GlobalDestruction";
