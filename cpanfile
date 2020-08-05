@@ -15,7 +15,9 @@ requires 'JSON::PP', '2.27300'; # for perl 5.8.6 or below
 requires 'Menlo::CLI::Compat', '1.9021';
 requires 'Module::CPANfile';
 requires 'Module::Metadata';
-requires 'Parallel::Pipes', '0.004';
+requires 'Parallel::Pipes',
+	git => 'https://github.com/oberth-manoeuvre/Parallel-Pipes.git',
+	ref => 'multi-worker-win32';
 requires 'local::lib', '2.000018';
 requires 'parent';
 requires 'version', '0.77';
