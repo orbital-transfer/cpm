@@ -32,7 +32,7 @@ sub new {
     bless {
         home => determine_home,
         cwd => Cwd::cwd(),
-        workers => WIN32 ? 1 : 5,
+        workers => 5,
         snapshot => "cpanfile.snapshot",
         cpanfile => "cpanfile",
         local_lib => "local",
@@ -119,9 +119,6 @@ sub parse_options {
         $target_perl = sprintf '%0.6f', App::cpm::version->parse($target_perl)->numify;
         $target_perl = '5.008' if $target_perl eq '5.008000';
         $self->{target_perl} = $target_perl;
-    }
-    if (WIN32 and $self->{workers} != 1) {
-        die "The number of workers must be 1 under WIN32 environment.\n";
     }
     if ($self->{sudo}) {
         !system "sudo", $^X, "-e1" or exit 1;
