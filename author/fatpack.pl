@@ -88,7 +88,7 @@ my $exclude = join ",", qw(
     Test::Harness
 );
 
-my $target = '5.8.1';
+my $target = '5.8.9';
 
 my ($git_describe, $git_url);
 if (my $version = $ENV{CPAN_RELEASE_VERSION}) {
