@@ -79,6 +79,7 @@ my $exclude = join ",", qw(
     ExtUtils::MakeMaker::CPANfile
     ExtUtils::ParseXS
     File::Spec
+    IO
     Module::Build::Tiny
     Module::CoreList
     Params::Check
