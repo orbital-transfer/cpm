@@ -160,13 +160,14 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  Command-Runner-0.102
-    pathname: S/SK/SKAJI/Command-Runner-0.102.tar.gz
+  Command-Runner-0.103
+    pathname: S/SK/SKAJI/Command-Runner-0.103.tar.gz
     provides:
-      Command::Runner 0.102
+      Command::Runner 0.103
       Command::Runner::Format undef
       Command::Runner::LineBuffer undef
       Command::Runner::Quote undef
+      Command::Runner::Timeout undef
     requirements:
       Capture::Tiny 0
       Module::Build::Tiny 0.034
@@ -185,7 +186,7 @@ DISTRIBUTIONS
     pathname: T/TO/TODDR/Exporter-5.74.tar.gz
     provides:
       Exporter 5.74
-      Exporter::Heavy 5.73
+      Exporter::Heavy 5.74
     requirements:
       Carp 1.05
       ExtUtils::MakeMaker 0
@@ -228,44 +229,44 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  ExtUtils-MakeMaker-7.44
-    pathname: B/BI/BINGOS/ExtUtils-MakeMaker-7.44.tar.gz
+  ExtUtils-MakeMaker-7.46
+    pathname: B/BI/BINGOS/ExtUtils-MakeMaker-7.46.tar.gz
     provides:
-      ExtUtils::Command 7.44
-      ExtUtils::Command::MM 7.44
-      ExtUtils::Liblist 7.44
-      ExtUtils::Liblist::Kid 7.44
-      ExtUtils::MM 7.44
-      ExtUtils::MM_AIX 7.44
-      ExtUtils::MM_Any 7.44
-      ExtUtils::MM_BeOS 7.44
-      ExtUtils::MM_Cygwin 7.44
-      ExtUtils::MM_DOS 7.44
-      ExtUtils::MM_Darwin 7.44
-      ExtUtils::MM_MacOS 7.44
-      ExtUtils::MM_NW5 7.44
-      ExtUtils::MM_OS2 7.44
-      ExtUtils::MM_QNX 7.44
-      ExtUtils::MM_UWIN 7.44
-      ExtUtils::MM_Unix 7.44
-      ExtUtils::MM_VMS 7.44
-      ExtUtils::MM_VOS 7.44
-      ExtUtils::MM_Win32 7.44
-      ExtUtils::MM_Win95 7.44
-      ExtUtils::MY 7.44
-      ExtUtils::MakeMaker 7.44
-      ExtUtils::MakeMaker::Config 7.44
-      ExtUtils::MakeMaker::Locale 7.44
-      ExtUtils::MakeMaker::_version 7.44
-      ExtUtils::MakeMaker::charstar 7.44
-      ExtUtils::MakeMaker::version 7.44
-      ExtUtils::MakeMaker::version::regex 7.44
-      ExtUtils::MakeMaker::version::vpp 7.44
-      ExtUtils::Mkbootstrap 7.44
-      ExtUtils::Mksymlists 7.44
-      ExtUtils::testlib 7.44
-      MM 7.44
-      MY 7.44
+      ExtUtils::Command 7.46
+      ExtUtils::Command::MM 7.46
+      ExtUtils::Liblist 7.46
+      ExtUtils::Liblist::Kid 7.46
+      ExtUtils::MM 7.46
+      ExtUtils::MM_AIX 7.46
+      ExtUtils::MM_Any 7.46
+      ExtUtils::MM_BeOS 7.46
+      ExtUtils::MM_Cygwin 7.46
+      ExtUtils::MM_DOS 7.46
+      ExtUtils::MM_Darwin 7.46
+      ExtUtils::MM_MacOS 7.46
+      ExtUtils::MM_NW5 7.46
+      ExtUtils::MM_OS2 7.46
+      ExtUtils::MM_QNX 7.46
+      ExtUtils::MM_UWIN 7.46
+      ExtUtils::MM_Unix 7.46
+      ExtUtils::MM_VMS 7.46
+      ExtUtils::MM_VOS 7.46
+      ExtUtils::MM_Win32 7.46
+      ExtUtils::MM_Win95 7.46
+      ExtUtils::MY 7.46
+      ExtUtils::MakeMaker 7.46
+      ExtUtils::MakeMaker::Config 7.46
+      ExtUtils::MakeMaker::Locale 7.46
+      ExtUtils::MakeMaker::_version 7.46
+      ExtUtils::MakeMaker::charstar 7.46
+      ExtUtils::MakeMaker::version 7.46
+      ExtUtils::MakeMaker::version::regex 7.46
+      ExtUtils::MakeMaker::version::vpp 7.46
+      ExtUtils::Mkbootstrap 7.46
+      ExtUtils::Mksymlists 7.46
+      ExtUtils::testlib 7.46
+      MM 7.46
+      MY 7.46
     requirements:
       Data::Dumper 0
       Encode 0
@@ -285,13 +286,14 @@ DISTRIBUTIONS
       Module::CPANfile 0
       Test::More 0.88
       version 0.76
-  ExtUtils-PL2Bat-0.002
-    pathname: L/LE/LEONT/ExtUtils-PL2Bat-0.002.tar.gz
+  ExtUtils-PL2Bat-0.003
+    pathname: L/LE/LEONT/ExtUtils-PL2Bat-0.003.tar.gz
     provides:
-      ExtUtils::PL2Bat 0.002
+      ExtUtils::PL2Bat 0.003
     requirements:
       Carp 0
       ExtUtils::MakeMaker 0
+      Getopt::Std 0
       perl 5.006
       strict 0
       warnings 0
@@ -320,10 +322,10 @@ DISTRIBUTIONS
       Module::Load::Conditional 0.66
       Params::Check 0.07
       Test::More 0
-  File-Path-2.16
-    pathname: J/JK/JKEENAN/File-Path-2.16.tar.gz
+  File-Path-2.17
+    pathname: J/JK/JKEENAN/File-Path-2.17.tar.gz
     provides:
-      File::Path 2.16
+      File::Path 2.17
     requirements:
       Cwd 0
       Exporter 0
@@ -401,10 +403,10 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  HTTP-Tinyish-0.16
-    pathname: M/MI/MIYAGAWA/HTTP-Tinyish-0.16.tar.gz
+  HTTP-Tinyish-0.17
+    pathname: M/MI/MIYAGAWA/HTTP-Tinyish-0.17.tar.gz
     provides:
-      HTTP::Tinyish 0.16
+      HTTP::Tinyish 0.17
       HTTP::Tinyish::Base undef
       HTTP::Tinyish::Curl undef
       HTTP::Tinyish::HTTPTiny undef
@@ -417,6 +419,38 @@ DISTRIBUTIONS
       IPC::Run3 0
       parent 0
       perl 5.008001
+  IO-1.42
+    pathname: T/TO/TODDR/IO-1.42.tar.gz
+    provides:
+      IO 1.42
+      IO::Dir 1.41
+      IO::File 1.41
+      IO::Handle 1.42
+      IO::Pipe 1.41
+      IO::Pipe::End 1.41
+      IO::Poll 1.41
+      IO::Seekable 1.41
+      IO::Select 1.41
+      IO::Socket 1.42
+      IO::Socket::INET 1.41
+      IO::Socket::UNIX 1.41
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Temp 0.15
+      Test::More 0
+  IO-Pipely-0.005
+    pathname: R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
+    provides:
+      IO::Pipely 0.005
+    requirements:
+      Exporter 5.68
+      ExtUtils::MakeMaker 6.30
+      Fcntl 1.06
+      IO::Socket 1.31
+      Symbol 1.06
+      base 2.18
+      strict 0
+      warnings 0
   IPC-Cmd-1.04
     pathname: B/BI/BINGOS/IPC-Cmd-1.04.tar.gz
     provides:
@@ -437,12 +471,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.31
       Time::HiRes 0
-  JSON-PP-4.04
-    pathname: I/IS/ISHIGAKI/JSON-PP-4.04.tar.gz
+  JSON-PP-4.05
+    pathname: I/IS/ISHIGAKI/JSON-PP-4.05.tar.gz
     provides:
-      JSON::PP 4.04
-      JSON::PP::Boolean 4.04
-      JSON::PP::IncrParser 4.04
+      JSON::PP 4.05
+      JSON::PP::Boolean 4.05
+      JSON::PP::IncrParser 4.05
     requirements:
       ExtUtils::MakeMaker 0
       Scalar::Util 1.08
@@ -526,11 +560,11 @@ DISTRIBUTIONS
       CPAN::Meta::Prereqs 2.12091
       ExtUtils::MakeMaker 0
       parent 0
-  Module-CoreList-5.20200428
-    pathname: B/BI/BINGOS/Module-CoreList-5.20200428.tar.gz
+  Module-CoreList-5.20200717
+    pathname: B/BI/BINGOS/Module-CoreList-5.20200717.tar.gz
     provides:
-      Module::CoreList 5.20200428
-      Module::CoreList::Utils 5.20200428
+      Module::CoreList 5.20200717
+      Module::CoreList::Utils 5.20200717
     requirements:
       ExtUtils::MakeMaker 0
       List::Util 0
@@ -543,10 +577,10 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.94
-  Module-Load-Conditional-0.70
-    pathname: B/BI/BINGOS/Module-Load-Conditional-0.70.tar.gz
+  Module-Load-Conditional-0.72
+    pathname: B/BI/BINGOS/Module-Load-Conditional-0.72.tar.gz
     provides:
-      Module::Load::Conditional 0.70
+      Module::Load::Conditional 0.72
     requirements:
       ExtUtils::MakeMaker 0
       Locale::Maketext::Simple 0
@@ -571,13 +605,6 @@ DISTRIBUTIONS
       strict 0
       version 0.87
       warnings 0
-  Parallel-Pipes-0.005
-    pathname: S/SK/SKAJI/Parallel-Pipes-0.005.tar.gz
-    provides:
-      Parallel::Pipes 0.005
-    requirements:
-      Module::Build::Tiny 0.034
-      perl 5.008001
   Params-Check-0.38
     pathname: B/BI/BINGOS/Params-Check-0.38.tar.gz
     provides:
@@ -784,6 +811,14 @@ DISTRIBUTIONS
       Win32::ShellQuote 0.003001
     requirements:
       perl 5.006
+  base-2.23
+    pathname: R/RJ/RJBS/base-2.23.tar.gz
+    provides:
+      base 2.23
+      fields 2.23
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.4
   local-lib-2.000024
     pathname: H/HA/HAARG/local-lib-2.000024.tar.gz
     provides:
