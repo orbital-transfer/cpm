@@ -23,6 +23,10 @@ requires 'local::lib', '2.000018';
 requires 'parent';
 requires 'version', '0.77';
 
+requires 'HTTP::Tiny',
+	git => 'https://github.com/zmughal/p5-http-tiny.git',
+	ref => 'retry-rename';
+
 recommends 'IO::Uncompress::Gunzip';
 recommends 'Carton';
 
